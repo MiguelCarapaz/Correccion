@@ -1,19 +1,15 @@
-package Grupos_Musicales;
+package Comidas;
 public class Main {
     public static void main(String[] args) {
-        GrupoMusical[] grupos = new GrupoMusical[2];
-        grupos[0] = new Banda("Hatsune Miku", "J-pop", 1);
-        grupos[1] = new Orquesta("Yoasobi", "J-pop", 2, "Mamoru Hosoda's");
+        ComidaJaponesa[] comidas = new ComidaJaponesa[1];
+        comidas[0] = new ComidaJaponesa("Tonkatsu", "Japon", "Occidental", "Japones", "Tonkatsu");
 
-        for (GrupoMusical group : grupos) {
-            System.out.println("Nombre: " + group.getNombre());
-            System.out.println("Genero: " + group.getGenero());
-            if (group instanceof Banda) {
-                System.out.println("Miembros: " + ((Banda) group).getMiembros());
-            }
-            if (group instanceof Orquesta) {
-                System.out.println("Director: " + ((Orquesta) group).getDirector());
-            }
+        for (ComidaJaponesa comida : comidas) {
+            System.out.println("Nombre: " + comida.getNombre());
+            System.out.println("País de origen: " + comida.getPaisOrigen());
+            System.out.println("Tipo de cocina: " + comida.getTipoCocina());
+            System.out.println("Estilo de cocina: " + comida.getEstiloCocina());
+            System.out.println("Plato típico: " + comida.getPlatoTipico());
             System.out.println();
         }
     }

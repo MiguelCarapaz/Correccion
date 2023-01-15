@@ -1,11 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9510a68-9c53-4e06-88df-b70fbb414a41" name="Changes" comment="" />
+    <list default="true" id="f9510a68-9c53-4e06-88df-b70fbb414a41" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Correccion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Comidas/Comida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Comidas/ComidaJaponesa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Comidas/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Comidas/Occidental.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grupos_Musicales/Banda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grupos_Musicales/GrupoMusical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grupos_Musicales/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grupos_Musicales/Orquesta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videojuegos/Juego.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videojuegos/JuegoDeAccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videojuegos/JuegoDeAventura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videojuegos/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KMri8YBsshmWm8MeC4X6SljDXK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,9 +49,64 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Comidas" />
+      <recent name="Grupos_Musicales" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Comidas.Main">
+    <configuration name="Comidas.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Comidas.Main" />
+      <module name="Correccion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Comidas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Grupos_Musicales.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Grupos_Musicales.Main" />
+      <module name="Correccion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Grupos_Musicales.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Videojuegos.Main" />
+      <module name="Correccion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Videojuegos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Comidas.Main" />
+        <item itemvalue="Application.Grupos_Musicales.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

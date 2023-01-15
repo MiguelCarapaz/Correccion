@@ -1,19 +1,18 @@
-package Videojuegos;
+package Grupos_Musicales;
 public class Main {
     public static void main(String[] args) {
-        Juego[] juegos = new Juego[3];
-        juegos[0] = new Juego("Super Mario Bros", "Nintendo", "Plataformas");
-        juegos[1] = new JuegoDeAccion("Call of Duty", "Activision", "Acción", "AK-47");
-        juegos[2] = new JuegoDeAventura("The Legend of Zelda", "Nintendo", "Aventura", "Espada Maestra", 8);
-        for (Juego juego : juegos) {
-            System.out.println("Nombre: " + juego.getNombre());
-            System.out.println("Desarrollador: " + juego.getDesarrollador());
-            System.out.println("Genero: " + juego.getGenero());
-            if (juego instanceof JuegoDeAccion) {
-                System.out.println("Arma: " + ((JuegoDeAccion) juego).getArma());
+        GrupoMusical[] grupos = new GrupoMusical[2];
+        grupos[0] = new Banda("Hatsune Miku", "J-pop", 1);
+        grupos[1] = new Orquesta("Yoasobi", "J-pop", 2, "Mamoru Hosoda's");
+
+        for (GrupoMusical group : grupos) {
+            System.out.println("Nombre: " + group.getNombre());
+            System.out.println("Genero: " + group.getGenero());
+            if (group instanceof Banda) {
+                System.out.println("Miembros: " + ((Banda) group).getMiembros());
             }
-            if (juego instanceof JuegoDeAventura) {
-                System.out.println("Misiones: " + ((JuegoDeAventura) juego).getMisiones());
+            if (group instanceof Orquesta) {
+                System.out.println("Director: " + ((Orquesta) group).getDirector());
             }
             System.out.println();
         }
